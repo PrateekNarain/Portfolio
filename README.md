@@ -1,1 +1,27 @@
 # Portfolio
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <h1>Hi Eevryone<br />This is Prateek Narain</h1>
+        <p>Software developer.</p>
+        <hr />
+        <h2>Welcome to my personal Website</h2>
+        <h3>Here are all the projects done by me.</h3>
+        <list>
+            <ol>
+                <li><a href="Project 1.html" target="_blank">Birthday Invitation</a></li>
+                <li><a href="project.html" target="_blank">Application</a></li>
+            </ol>
+        </list>
+    </body><hr />
+    <footer>
+        <nav><a href="About.html">About</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Projects.html">Projects</a></nav>
+    </footer>
+</html>
