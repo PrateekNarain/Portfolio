@@ -12,8 +12,8 @@
 
 <h2> Get in Touch: </h2>
 
-<p> 📧 Email: <a href="mailto:prateeknarain751@gmail.com" class="contact-link">aryansoni26827@gmail.com</a> </p>
-<p>📱 LinkedIn: <a href="https://www.linkedin.com/in/prateek-narain-b10708226/"(https://www.linkedin.com/in/prateek-narain-b10708226/)" target="_blank">Aryan Soni </p>
+<p> 📧 Email: <a href="mailto:prateeknarain751@gmail.com" class="contact-link">prateeknarain751@gmail.com</a> </p>
+<p>📱 LinkedIn: <a href="https://www.linkedin.com/in/prateek-narain-b10708226/"(https://www.linkedin.com/in/prateek-narain-b10708226/)" target="_blank">Prateek Narain </p>
 <p>🐦 Instagram: <a href="https://www.instagram.com/prateek_narain/" target="_blank">Prateek Narain</p>
 
 <h2> 🤝 Contributions </h2>
