@@ -12,9 +12,9 @@
 
 <h2> Get in Touch: </h2>
 
-<p> 📧 Email: <a href="mailto:aryansoni26827@gmail.com" class="contact-link">aryansoni26827@gmail.com</a> </p>
-<p>📱 LinkedIn: <a href="https://www.linkedin.com/in/aryan-soni-26794924a/" target="_blank">Aryan Soni </p>
-<p>🐦 Instagram: <a href="https://www.instagram.com/aryan_soni269269/" target="_blank">Aryan Soni</p>
+<p> 📧 Email: <a href="mailto:prateeknarain751@gmail.com" class="contact-link">aryansoni26827@gmail.com</a> </p>
+<p>📱 LinkedIn: <a href="https://www.linkedin.com/in/prateek-narain-b10708226/"(https://www.linkedin.com/in/prateek-narain-b10708226/)" target="_blank">Aryan Soni </p>
+<p>🐦 Instagram: <a href="https://www.instagram.com/prateek_narain/" target="_blank">Prateek Narain</p>
 
 <h2> 🤝 Contributions </h2>
 <p> Excited to contribute or have ideas to share? Awesome! Open an issue or submit a pull request - let's make something great together.</p>
