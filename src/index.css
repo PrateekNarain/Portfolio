@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-heading: "Playfair Display", serif;
+  --color-bg-dark: #121212;
+  --color-bg-light: #121212;
+  --color-text-dark: #f4f1eb;
+  --color-text-light: #f4f1eb;
+  --color-accent-start: #df9b31;
+  --color-accent-end: #d39634;
+}
+
+@layer base {
+  :root {
+    --bg: var(--color-bg-dark);
+    --text: var(--color-text-dark);
+    --card-bg: #1a1a1a;
+    --card-border: #33261a;
+  }
+
+  body {
+    @apply bg-[var(--bg)] text-[var(--text)] transition-colors duration-500 antialiased font-sans overflow-x-hidden;
+    background-image: none;
+  }
+
+  body::before {
+    display: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold tracking-tight text-[#fce29f];
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply text-[#d39634];
+  }
+  .bg-gradient-accent {
+    @apply bg-gradient-to-r from-[#BF953F] via-[#FCF6BA] to-[#B38728] text-[#121212] font-bold shadow-[0_4px_14px_0_rgba(191,149,63,0.39)] hover:shadow-[0_6px_20px_rgba(191,149,63,0.6)] hover:-translate-y-0.5 transition-all duration-300;
+  }
+  .glass-card {
+    @apply bg-[var(--card-bg)] border border-[var(--card-border)] shadow-xl hover:border-[#df9b31] transition-all duration-500;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes animated-dash {
+  to {
+    stroke-dashoffset: -20;
+  }
+}
+
+.animated-dash-line {
+  stroke-dasharray: 6 6;
+  animation: animated-dash 1.2s linear infinite;
+}
