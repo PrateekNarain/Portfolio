@@ -11,7 +11,7 @@ export default async function handler(req, res) {
       headers: {
         'Content-Type': 'application/json',
         // Vercel reads environment variables from process.env
-        'Authorization': `Bearer ${process.env.VITE_RESEND_API_KEY}`
+        'Authorization': `Bearer ${process.env.RESEND_API_KEY}`
       },
       // Pass the body we received directly to Resend
       body: JSON.stringify(req.body)
